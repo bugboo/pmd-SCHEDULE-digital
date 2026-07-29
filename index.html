@@ -1,74 +1,301 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nome do Projeto</title>
+    <title>Schedule Digital</title>
 
     <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/4f4c1dcb84.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
 
-<header>
-    <img src="assets/logo.svg" alt="Logo do Projeto" class="logo">
+    <header>
 
-    <h1>Nome do Projeto</h1>
+        <div class="logo">
+            <h2>📅 Schedule Digital</h2>
+        </div>
 
-    <p>Uma frase resumindo a proposta do projeto.</p>
-</header>
+        <nav>
 
-<nav>
-    <a href="#sobre">Sobre</a>
-    <a href="#objetivos">Objetivos</a>
-    <a href="#tecnologias">Tecnologias</a>
-    <a href="#equipe">Equipe</a>
-</nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#objetivos">Objetivos</a>
+            <a href="#funcionalidades">Funcionalidades</a>
+            <a href="#tecnologias">Tecnologias</a>
+            <a href="#equipe">Equipe</a>
 
-<main>
+        </nav>
 
-<section id="sobre">
-    <h2>Sobre o Projeto</h2>
+    </header>
 
-    <p>
-        Explique qual problema o projeto resolve e por que ele é importante.
-    </p>
-</section>
+    <!-- HERO -->
 
-<section id="objetivos">
-    <h2>Objetivos</h2>
+    <section class="hero" id="inicio">
 
-    <ul>
-        <li>Objetivo 1</li>
-        <li>Objetivo 2</li>
-        <li>Objetivo 3</li>
-    </ul>
-</section>
+        <div class="hero-text">
 
-<section id="tecnologias">
-    <h2>Tecnologias</h2>
+            <h1>
+                Organize sua vida escolar
+                de forma inteligente.
+            </h1>
 
-    <ul>
-        <li>HTML5</li>
-        <li>CSS3</li>
-        <li>JavaScript</li>
-    </ul>
-</section>
+            <p>
 
-<section id="equipe">
-    <h2>Equipe</h2>
+                O Schedule Digital reúne horários,
+                eventos e avisos da escola
+                em uma única plataforma.
 
-    <p>
-        Apresente os integrantes da equipe.
-    </p>
-</section>
+            </p>
 
-</main>
+            <a href="#sobre" class="btn">
+                Conheça o Projeto
+            </a>
 
-<footer>
-    <p>Projeto Multidisciplinar • 2026</p>
-</footer>
+        </div>
 
-<script src="js/script.js"></script>
+        <div class="hero-image">
+
+            <img src="assets/logo.png" alt="Agenda">
+
+        </div>
+
+    </section>
+
+    <!-- SOBRE -->
+
+    <section id="sobre" class="container">
+
+        <h2>Sobre o Projeto</h2>
+
+        <p>
+
+            O Schedule Digital foi desenvolvido para facilitar
+            a organização da rotina escolar dos alunos.
+
+            A plataforma permite consultar horários das aulas,
+            acompanhar eventos e receber comunicados importantes.
+
+            Além disso, a diretoria possui um painel administrativo
+            para cadastrar, editar e atualizar todas as informações
+            da escola de maneira rápida e organizada.
+
+        </p>
+
+    </section>
+
+    <!-- OBJETIVOS -->
+
+    <section id="objetivos" class="container">
+
+        <h2>Objetivos</h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <i class="fa-solid fa-calendar-days"></i>
+
+                <h3>Organização</h3>
+
+                <p>
+
+                    Facilitar a rotina escolar
+                    dos estudantes.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-bullhorn"></i>
+
+                <h3>Comunicação</h3>
+
+                <p>
+
+                    Centralizar avisos
+                    e eventos da escola.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-school"></i>
+
+                <h3>Gestão</h3>
+
+                <p>
+
+                    Permitir que a diretoria
+                    atualize todas as informações.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FUNCIONALIDADES -->
+
+    <section id="funcionalidades" class="container">
+
+        <h2>Funcionalidades</h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <i class="fa-solid fa-clock"></i>
+
+                <h3>Horários</h3>
+
+                <p>
+
+                    Consulte facilmente
+                    seus horários de aula.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-calendar"></i>
+
+                <h3>Eventos</h3>
+
+                <p>
+
+                    Veja eventos e atividades
+                    organizadas pela escola.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-envelope"></i>
+
+                <h3>Avisos</h3>
+
+                <p>
+
+                    Receba comunicados
+                    importantes em tempo real.
+
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <i class="fa-solid fa-user-shield"></i>
+
+                <h3>Painel da Diretoria</h3>
+
+                <p>
+
+                    Cadastre eventos,
+                    horários e comunicados.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- TECNOLOGIAS -->
+
+    <section id="tecnologias" class="container">
+
+        <h2>Tecnologias</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>HTML5</h3>
+            </div>
+
+            <div class="card">
+                <h3>CSS3</h3>
+            </div>
+
+            <div class="card">
+                <h3>JavaScript</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- EQUIPE -->
+
+    <section id="equipe" class="container">
+
+        <h2>Equipe</h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <h3>Pietro Henrique</h3>
+
+                <p>Desenvolvedor</p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Ana Clara</h3>
+
+                <p>Designer</p>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Gabrila Dias</h3>
+
+                <p>Documentação</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <p>
+
+            © 2026 • Schedule Digital
+            <br>
+            Projeto Multidisciplinar
+
+        </p>
+
+    </footer>
+
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>
