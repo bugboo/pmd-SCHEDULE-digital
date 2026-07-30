@@ -6,13 +6,21 @@
 const header = document.querySelector("header");
 
 window.addEventListener("scroll", () => {
+
     if (window.scrollY > 50) {
-        header.style.background = "#ffffff";
-        header.style.boxShadow = "0 5px 20px rgba(0,0,0,.15)";
+
+        header.style.background = "rgba(13,17,23,.95)";
+        header.style.backdropFilter = "blur(12px)";
+        header.style.boxShadow = "0 8px 25px rgba(0,0,0,.45)";
+
     } else {
-        header.style.background = "#ffffff";
-        header.style.boxShadow = "0 4px 20px rgba(0,0,0,.08)";
+
+        header.style.background = "rgba(13,17,23,.95)";
+        header.style.backdropFilter = "blur(12px)";
+        header.style.boxShadow = "0 8px 25px rgba(0,0,0,.45)";
+
     }
+
 });
 
 // Scroll suave para os links do menu
